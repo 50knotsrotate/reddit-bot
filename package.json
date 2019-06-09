@@ -1,0 +1,14 @@
+{
+  "name": "reddit-bot",
+  "version": "1.0.0",
+  "description": "I dont know what this will be yet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick McMahon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
