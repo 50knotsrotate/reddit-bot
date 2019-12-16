@@ -26,6 +26,7 @@ comments.on("item", item => {
   // if (item.created_utc <= BOT_START) return;
 // if(item.author.name == 'grass_tastes_badd') return 
   if (item.body.includes("but dont quote me on that")) {
+    console.log('We got one')
     item.reply(quote(item.body, item.author));
   }
 });
